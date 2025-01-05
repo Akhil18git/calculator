@@ -48,16 +48,17 @@ a {
 
 #display {
     margin: 0 10px;
-    height: 150px;
+    height: 100px;
     width: auto;
     max-width: 270px;
     display: flex;
-    align-items: flex-end;
+    align-items:center;
     justify-content: flex-end;
     font-size: 30px;
     margin-bottom: 20px;
     overflow-x: scroll;
     padding-right: 50px;
+    border: 1px solid black;
   }
 
 #display::-webkit-scrollbar {
@@ -88,11 +89,12 @@ button#equal {
 
 
 .calculator {
-    background-color: #fff;
+    background-color: #fc4a52;
 }
 
 .calculator #display {
     color: #0a1e23;
+
 }
 
 .calculator button#clear {
